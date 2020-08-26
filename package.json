@@ -1,0 +1,24 @@
+{
+  "name": "@definejs/toast",
+  "version": "0.1.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "micty",
+  "email": "mictydeng@qq.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/definejs/toast.git"
+  },
+  "dependencies": {
+    "@definejs/emitter": "^0.1.4",
+    "@definejs/masker": "^0.1.3",
+    "@definejs/object": "^0.1.7",
+    "@definejs/string": "^0.1.5",
+    "@definejs/style": "^0.1.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1"
+  }
+}
