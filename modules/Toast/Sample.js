@@ -1,6 +1,6 @@
 ﻿
 module.exports = `
-    <div id="{id}" class="definejs-toast {cssClass}" style="{style}">
+    <div id="{id}" class="definejs-Toast {cssClass}" style="{style}">
         <div>
             <i id="{iconId}" class="fa fa-{icon}"></i>
         </div>

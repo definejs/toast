@@ -40,6 +40,7 @@ function Toast(config) {
     //对外暴露的属性。
     Object.assign(this, {
         'id': meta.id,
+        '$': meta.$,
     });
 
 }
@@ -88,7 +89,7 @@ Toast.prototype = /**@lends Toast#*/ {
 
         $(meta.container).append(html);
 
-        meta.$ = this.$ = $(`#${meta.id}`);
+        this.$ = meta.$ = $(`#${meta.id}`);
         meta.$icon = $(`#${meta.iconId}`);
         meta.$text = $(`#${meta.textId}`);
 

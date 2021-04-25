@@ -1,6 +1,6 @@
 {
   "name": "@definejs/toast",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@definejs/emitter": "^1.0.0",
+    "@definejs/id-maker": "^1.0.1",
     "@definejs/masker": "^1.0.0",
     "@definejs/object": "^1.1.0",
     "@definejs/string": "^1.0.0",
